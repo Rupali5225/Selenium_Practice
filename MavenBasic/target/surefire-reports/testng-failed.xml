@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testng.Example1">
+        <methods>
+          <include name="testCase2"/>
+          <include name="testCase3"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- testng.Example1 -->
+      <class name="testng.BeforeAfterTestGoogle">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testGoogleLandingPage"/>
+          <include name="testSearch"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- testng.BeforeAfterTestGoogle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

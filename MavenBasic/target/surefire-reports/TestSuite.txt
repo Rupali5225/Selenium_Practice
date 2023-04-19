@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 6, Time elapsed: 17.626 sec <<< FAILURE! - in TestSuite
+startUp(testng.BeforeAfterTestGoogle)  Time elapsed: 17.292 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DEUFFS0', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x00D5DCE3+50899]
+	(No symbol) [0x00CEE111]
+	(No symbol) [0x00BF5588]
+	(No symbol) [0x00C10AAB]
+	(No symbol) [0x00C0F479]
+	(No symbol) [0x00C41FFE]
+	(No symbol) [0x00C41CEC]
+	(No symbol) [0x00C3B6F6]
+	(No symbol) [0x00C17708]
+	(No symbol) [0x00C1886D]
+	GetHandleVerifier [0x00FC3EAE+2566302]
+	GetHandleVerifier [0x00FF92B1+2784417]
+	GetHandleVerifier [0x00FF327C+2759788]
+	GetHandleVerifier [0x00DF5740+672048]
+	(No symbol) [0x00CF8872]
+	(No symbol) [0x00CF41C8]
+	(No symbol) [0x00CF42AB]
+	(No symbol) [0x00CE71B7]
+	BaseThreadInitThunk [0x75C90099+25]
+	RtlGetAppContainerNamedObjectPath [0x77887B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77887B3E+238]
+
+	at testng.BeforeAfterTestGoogle.startUp(BeforeAfterTestGoogle.java:15)
+
