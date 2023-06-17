@@ -1,3 +1,11 @@
 cscszckc
+<<<<<<< HEAD
 
 rupali2
+=======
+rupali 3
+rupali3
+rupali3
+>>>>>>> Rupali3
+
+rupali4
